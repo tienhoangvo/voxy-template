@@ -1,7 +1,11 @@
+import DarkModeSwitch from '@/components/dark-mode-switch'
+import Buttton from '@/components/ui/button'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="relative top-2"></div>
+    <main>
+      <DarkModeSwitch />
+      <Buttton>Good</Buttton>
     </main>
   )
 }
